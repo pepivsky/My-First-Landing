@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first Landing</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <!--<a id="link_logo" href="#pepe">Pepe</a>-->
+        <a id="link_logo" href="#home">
+            <img title="mario" alt="mario image"
+                 src="https://e7.pngegg.com/pngimages/999/480/png-clipart-super-mario-level-up-mushroom-super-mario-bros-edible-mushroom-computer-icons-video-game-8-bit-food-leaf.png"
+                 width="64" height="64">
+        </a>
+        <a id="link_home" href="#home">Home</a>
+        <a id="link_product" href="#product">Product</a>
+        <a id="link_contact" href="#contact">Contact</a>
+
+    </nav>
+</header>
+
+<main>
+    <div id="home">
+        <h1 class="heading-title">First landing</h1>
+
+        <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie arcu augue. Duis
+            eu elementum
+            tellus. Morbi blandit sed felis ac condimentum. Phasellus blandit mauris lacus, vitae commodo ligula
+            vulputate nec. Maecenas tempor tempus ex. Integer et justo aliquet, scelerisque mauris ut, tempor sapien.
+            Sed non nisi in enim hendrerit ornare. Integer pretium enim nisi, eget porta lacus ultricies sed. Sed congue
+            velit non erat tempus, eu posuere velit dignissim. Nullam accumsan nisi quis placerat elementum. Nam euismod
+            et tortor id dictum. Suspendisse posuere sagittis tristique.</p>
+
+        <a class="button" href="#product">Coming soon</a>
+    </div>
+
+    <!-- ROW -->
+    <div id="product">
+        <!-- COLUMN -->
+        <div id="col-1">
+            <div> <!-- content -->
+                <h2>Harder</h2>
+                <p>parrafo 1</p>
+            </div>
+            <!-- image -->
+            <img height="100" width="100"
+                 src="https://www.usatoday.com/gcdn/authoring/authoring-images/2023/11/02/USAT/71425480007-getty-images-1498838344.jpg?crop=1060,1413,x530,y0"
+                 alt="angry cat" title="angry cat">
+
+        </div>
+        <!-- COLUMN -->
+        <div id="col-2">
+            <div> <!-- content -->
+                <h2>Better</h2>
+                <p>parrafo 2</p>
+            </div>
+            <!-- image -->
+            <img height="100" width="100"
+                 src="https://images.theconversation.com/files/541021/original/file-20230803-19-s56je1.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip"
+                 alt="handsome cat" title="handsome cat">
+        </div>
+    </div>
+
+
+</main>
+
+<footer>
+    <div id="contact">
+        <div id="contact-col1">
+            <a id="footer_link_logo" href="#home">
+                <!-- image -->
+                <img title="mario" alt="mario image"
+                     src="https://e7.pngegg.com/pngimages/999/480/png-clipart-super-mario-level-up-mushroom-super-mario-bros-edible-mushroom-computer-icons-video-game-8-bit-food-leaf.png"
+                     width="64" height="64">
+            </a>
+            <div>
+                <a id="footer_link_home" href="#home">Home</a>
+                <a id="footer_link_product" href="#product">Product</a>
+                <a id="footer_link_contact" href="#contact">Contact</a>
+            </div>
+            <!-- paragraph -->
+            <p>2024</p>
+        </div>
+
+        <div id="contact-col2">
+
+            <form>
+                <h5>Sign up for the waiting list</h5>
+                <div class="email-container">
+                    <label for="email">
+                        Email
+                    </label>
+                    <input id="email" type="email" name="email" placeholder="you@example.com" required/>
+                </div>
+
+                <div class="agree-container">
+                    <label for="cheese">
+                        <input type="checkbox" name="cheese" id="cheese" required/>
+                        I agree to receive emails
+                    </label>
+                </div>
+                <button class="sub" type="submit">Sign up</button>
+            </form>
+        </div>
+
+
+    </div>
+</footer>
+</body>
+</html>
